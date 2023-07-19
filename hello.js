@@ -1,5 +1,9 @@
 function hello(str) {
-    // Add your solution here!
+    if (str == undefined) {
+        str = 'World'
+    }
+
+    return  `Hello, ${str}!`
 };
 
 module.exports = hello;
